@@ -1,7 +1,7 @@
 import '../components/Carousel.js';
 import '../components/Carousel.css';
 import '../components/carousel-func.js';
-import './Home.css'; 
+import './Home.css';
 import law from '../img/Law.png';
 import gojo from '../img/Gojo Unmaskedpng.png';
 import meruemImage from '../img/Meruem.png';
@@ -35,15 +35,14 @@ const App = () => {
             <div className="carousel__item">
               <img src={mightGuyImage} alt="Might Guy" />
             </div>
-          </div>
-
-          <div className="carousel__actions">
-            <button id="carousel__button--prev" aria-label="Previous slide">
-              &lt;
-            </button>
-            <button id="carousel__button--next" aria-label="Next slide">
-              &gt;
-            </button>
+            <div className="carousel__actions">
+              <button id="carousel__button--prev" aria-label="Previous slide">
+                &lt;
+              </button>
+              <button id="carousel__button--next" aria-label="Next slide">
+                &gt;
+              </button>
+            </div>
           </div>
         </main>
 
