@@ -1,0 +1,77 @@
+:root {
+    --hover-color: firebrick;
+    --background-color: #1d1d23;
+}
+  /* this contains all the styles and fonts inported  */
+  /* this has the sizing and font and color layout for the page */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    transition: 0.5s;
+    text-transform: capitalize;
+}
+.header {
+    padding: 1rem 7%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: #1d1d23;
+}
+  
+.header .logo img {
+    height: 55px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+  
+.navbar {
+    display: flex;
+}
+  
+.navbar a {
+    color: white;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+  
+.navbar a:hover {
+    color: var(--hover-color);
+}
+  
+.contactBotton div i {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+  
+.contactBotton div:hover {
+    cursor: pointer;
+}
+  
+.contactBotton a {
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border: 1px solid firebrick;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+    display: inline-block;
+}
+  
+.contact-btn:hover {
+    transform: scale(1.1);
+    background: var(--hover-color);
+    border: 1px solid white;
+}
