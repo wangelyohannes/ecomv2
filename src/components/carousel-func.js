@@ -2,18 +2,21 @@
 window.onload = function(){
 let slidePosition = 0;
 const slides = document.getElementsByClassName('carousel__item');
+const nextButton = document.getElementById('carousel__button--next');
+const prevButton = document.getElementById('carousel__button--prev');
 const totalSlides = slides.length;
 
-document.
-  getElementById('carousel__button--next')
-  .addEventListener("click", function() {
+if (nextButton) {
+  nextButton.addEventListener("click", function() {
     moveToNextSlide();
   });
-document.
-  getElementById('carousel__button--prev')
-  .addEventListener("click", function() {
+}
+
+if (prevButton) {
+  prevButton.addEventListener("click", function() {
     moveToPrevSlide();
   });
+}
 
 function updateSlidePosition() {
   for (let slide of slides) {
