@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from './Navbar';
 import './Header.css';
 import logo from '../img/Funko_Logo_White.webp';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,7 @@ const Header = () => {
         <Link to="/contact"> Contact</Link>
         <Link to="/shop"> Shop</Link>
       </nav>
+      <Navbar />
       <div className="contactBotton">
         <i className="fa fa-bird"></i>
         <Link className="contact-btn" to="/contact"> Connect</Link>
