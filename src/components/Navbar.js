@@ -10,7 +10,7 @@ const Navbar = () => {
           <i className="fa fa-caret-down"></i>
         </button>
         <div className="dropdown-content">
-        <Link to="/index"> Home</Link>
+        <Link to="/"> Home</Link>
         <Link to="/contact"> Contact</Link>
         <Link to="/shop"> Shop</Link>
         </div>

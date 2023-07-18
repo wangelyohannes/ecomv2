@@ -11,7 +11,7 @@ const Footer = () => {
       {/* <img src ={logo} alt="" /> */}
       <footer>
         <div className="footer-navbar">
-        <Link to="/index"> Home</Link>
+        <Link to="/"> Home</Link>
         <Link to="/contact"> Contact</Link>
         <Link to="/shop"> Shop</Link>
           </div>
